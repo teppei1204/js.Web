@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  font-family: "Ubuntu", serif;
+  font-size: 1.2rem;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right, #891483, #da2237);
+  overflow: hidden;
+}
+nav{
+  display: flex;
+  width: 80%;
+  margin: 20px auto;/*marginはブロック要素のみに可能、幅を適用しないと使えない*/
+  align-items: center;
+  font-weight: 550px;
+}
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+.nav-links li{
+  list-style: none;
+}
+.logo-area{
+  display: flex;
+  align-items: center;
+}
+.logo{
+  width: 20%;
+  height: 20%;
+  margin-right: 12px;
+}
+.nav-links ul li{
+  display: inline-block;
+  padding: 0 2rem;
+}
+.nav-links ul a{
+  font-weight: 600px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.nav-links ul a:hover{
+  color: antiquewhite;
+}
